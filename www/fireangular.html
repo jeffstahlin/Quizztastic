@@ -21,7 +21,11 @@
     <script src="https://cdn.firebase.com/libs/angularfire/0.3.0/angularfire.min.js"></script>
   </head>
   <body ng-controller="MyController">
-    <div class="topcoat-button center full" ontouchend="showQuizzes()">Quizzes</div>
+    <div id="quizzesDiv">
+      <div ng-repeat="quiz in quizzes" style="background: url('{{quiz.image}}');">
+        <header>{{quiz.title}}</header>
+      </div>
+    </div>
   </body>
   
   <script>

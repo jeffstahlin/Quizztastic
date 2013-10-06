@@ -10,3 +10,38 @@ input {
 .content-padded {
   padding: 10px;
 }
+
+.quizzes {
+	width: 100%;
+	height: 90px;
+	display: block; 
+	-webkit-box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+	margin: 10px 0;
+}
+
+.quizzes header {
+	background: black;
+	color: white;
+}
+
+.quiz {
+	width: 100%;
+	display: block; 
+	-webkit-box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+	margin: 10px 0;
+	background: white;
+}
+
+.quiz img {
+	width: 100%;
+}
+
+#stopwatch {
+	position: fixed;
+	z-index: 69;
+	right: 2%;
+	top: 2%;
+	background: black;
+	color: white;
+	width: 20%;
+}
